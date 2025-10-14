@@ -1,0 +1,15 @@
+
+div{
+    border: 2px red solid;
+    width: 15%;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    margin-left: 15px;
+}
+.done {
+text-decoration: line-through;
+color: gray;
+}
+
+
