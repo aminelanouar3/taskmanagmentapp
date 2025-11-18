@@ -11,7 +11,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "outputPath": "dist/todolist",
+          "outputPath": "dist/taskmanagmentapp",
           "index": "src/index.html",
           "builder": "@angular/build:application",
           "options": {
@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "todolist:build:production"
+              "buildTarget": "taskmanagmentapp:build:production"
             },
             "development": {
-              "buildTarget": "todolist:build:development"
+              "buildTarget": "taskmanagmentapp:build:development"
             }
           },
           "defaultConfiguration": "development"
